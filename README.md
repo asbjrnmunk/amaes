@@ -27,7 +27,7 @@ All checkpoints have been pretrained on 🧠BRAINS-45K for _100_ epochs using AM
 | MedNeXt-L | 55              | [Download](https://zenodo.org/records/13604788/files/mednext_l3_lw_dec_fullaug.pth?download=1) |   |        |
 | MedNeXt-M | 21              | [Download](https://zenodo.org/records/13604788/files/mednext_m3_lw_dec_fullaug.pth?download=1) |   |        |
 
-All models where pretrained on 2xH100 GPUs with 80GB of memory.
+All models were pretrained on 2xH100 GPUs with 80GB of memory.
 
 # Running the code
 
@@ -37,7 +37,7 @@ All models where pretrained on 2xH100 GPUs with 80GB of memory.
 ## Setup data
 AMAES is using the Yucca library for handling 3D medical data.
 
-_Insert information on how to task convert, preprocess data using Yucca_.
+Guide on how to setup data comming soon.
 
 ## Pretraining
 
