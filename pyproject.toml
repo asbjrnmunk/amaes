@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "AMAES"
+version = "0.0.1"
+description = ""
+authors = ["Asbjørn Munk <asbjorn@hey.com>"]
+readme = "README.md"
+packages = [
+    { include = "src/**/*.py" },
+]
+[tool.poetry.dependencies]
+python = ">=3.11.3,<3.12"
+lightning = ">=2.1.4"
+numpy = ">=1.23"
+yucca = "1.1.7"
+opencv-python = ">=4.8.1.78"
+einops = ">=0.7"
+torch = "<2.3.0"
+
+
+[tool.poetry.group.test]
+optional = true
+
+[tool.poetry.group.test.dependencies]
+pytest = ">=6.0.0"
+flake8 = ">=6.1.0"
+black = ">=23.10.1"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+nnunetv2 = "^2.4.2"
+
+[tool.black]
+line-length = 127
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
