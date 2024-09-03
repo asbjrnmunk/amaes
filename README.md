@@ -10,6 +10,16 @@ Official Pytorch implementation of AMAES from the paper
 >
 > \* Equal Contribution
 
+_Efficient_ pretraining for 3D segmentation models using MAE and augmentation reversal on a large domain-specific dataset.
+
+**Overview**
+![results-no_arrow](https://github.com/user-attachments/assets/9e125d38-34d9-48da-83c8-20db612fb153)
+
+**Method**
+![abstract](https://github.com/user-attachments/assets/37518818-2b7d-415e-86bb-47ded4e41545)
+
+
+
 # 🧠BRAINS-45K dataset
 All models are pretrained on 🧠BRAINS-45K, the largest pretraining dataset available for brain MRI.
 
