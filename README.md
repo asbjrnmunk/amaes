@@ -1,4 +1,4 @@
-# AMAES
+# AMAES: Masked Autoencoder Pretraining on 3D Brain MRI
 
 Official Pytorch implementation of AMAES from the paper
 
