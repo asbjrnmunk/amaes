@@ -12,7 +12,7 @@ Official Pytorch implementation of AMAES from the paper
 
 _Efficient_ pretraining for 3D segmentation models using MAE and augmentation reversal on a large domain-specific dataset.
 
-For more information on the paper see [amaes.asbn.dk](amaes.asbn.dk).
+For more information on the paper see [amaes.asbn.dk](https://amaes.asbn.dk).
 
 **Overview**
 ![results-no_arrow](https://github.com/user-attachments/assets/9e125d38-34d9-48da-83c8-20db612fb153)
