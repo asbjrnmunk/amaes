@@ -27,19 +27,19 @@ For more information on the paper see [amaes.asbn.dk](https://amaes.asbn.dk).
 # 🧠BRAINS-45K dataset
 All models are pretrained on 🧠BRAINS-45K, the largest pretraining dataset available for brain MRI.
 
-[NEW!] We have released a new dataset of 60K brain MRI callled FOMO60k, which is available for download on [Hugging Face 🤗](https://huggingface.com/fomo-mri/fomo60k).
+[NEW!] We have released a new dataset of 60K brain MRI callled FOMO60k, which is available for download on [Hugging Face 🤗](https://huggingface.co/datasets/FOMO25/FOMO-MRI).
 
 # Model checkpoints
 
 All checkpoints have been pretrained on 🧠BRAINS-45K for _100_ epochs using AMAES.
 
-| Model     | Parameters      | Checkpoint |   |        |
-|-----------|-----------------|------------|---|--------|
-|           | _M_             | Zenodo     | 🤗 | Kaggle |
-| U-Net XL  | 90              | [Download](https://zenodo.org/records/13604788/files/unet_xl_lw_dec_fullaug.pth?download=1) |   |        |
-| U-Net B   | 22              | [Download](https://zenodo.org/records/13604788/files/unet_b_lw_dec_fullaug.pth?download=1) |   |        |
-| MedNeXt-L | 55              | [Download](https://zenodo.org/records/13604788/files/mednext_l3_lw_dec_fullaug.pth?download=1) |   |        |
-| MedNeXt-M | 21              | [Download](https://zenodo.org/records/13604788/files/mednext_m3_lw_dec_fullaug.pth?download=1) |   |        |
+| Model     | Parameters      | Checkpoint |
+|-----------|-----------------|------------|
+|           | _M_             | Zenodo     | 
+| U-Net XL  | 90              | [Download](https://zenodo.org/records/13604788/files/unet_xl_lw_dec_fullaug.pth?download=1) |
+| U-Net B   | 22              | [Download](https://zenodo.org/records/13604788/files/unet_b_lw_dec_fullaug.pth?download=1) |
+| MedNeXt-L | 55              | [Download](https://zenodo.org/records/13604788/files/mednext_l3_lw_dec_fullaug.pth?download=1) |
+| MedNeXt-M | 21              | [Download](https://zenodo.org/records/13604788/files/mednext_m3_lw_dec_fullaug.pth?download=1) |
 
 All models were pretrained on 2xH100 GPUs with 80GB of memory.
 
