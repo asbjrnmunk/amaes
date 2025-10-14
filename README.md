@@ -79,7 +79,7 @@ Please use
 @article{munk2024amaes,
   title={AMAES: Augmented Masked Autoencoder Pretraining on Public Brain MRI Data for 3D-Native Segmentation},
   author={Munk, Asbjørn and Ambsdorf, Jakob and Llambias, Sebastian and Nielsen, Mads},
-  journal={arXiv preprint arXiv:2408.00640},
+  journal={MICCAI Workshop on Advancing Data Solutions in Medical Imaging AI (ADSMI 2024), MICCAI 2024},
   year={2024}
 }
 ```
