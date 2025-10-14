@@ -29,8 +29,6 @@ All models are pretrained on 🧠BRAINS-45K, the largest pretraining dataset ava
 
 [NEW!] We have released a new dataset of 60K brain MRI callled FOMO60k, which is available for download on [Hugging Face 🤗](https://huggingface.com/fomo-mri/fomo60k).
 
-**All code necesarry to reproduce the dataset will be made available as soon as possible**.
-
 # Model checkpoints
 
 All checkpoints have been pretrained on 🧠BRAINS-45K for _100_ epochs using AMAES.
