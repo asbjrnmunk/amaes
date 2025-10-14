@@ -14,6 +14,8 @@ _Efficient_ pretraining for 3D segmentation models using MAE and augmentation re
 
 For more information on the paper see [amaes.asbn.dk](https://amaes.asbn.dk).
 
+[NEW!] The codebase has been rewritten for the [FOMO25](fomo25.github.io) challenge baseline codebase. Check it our [here](https://github.com/fomo25/baseline-codebase).
+
 **Overview**
 ![results-no_arrow](https://github.com/user-attachments/assets/9e125d38-34d9-48da-83c8-20db612fb153)
 
@@ -24,6 +26,8 @@ For more information on the paper see [amaes.asbn.dk](https://amaes.asbn.dk).
 
 # 🧠BRAINS-45K dataset
 All models are pretrained on 🧠BRAINS-45K, the largest pretraining dataset available for brain MRI.
+
+[NEW!] We have released a new dataset of 60K brain MRI callled FOMO60k, which is available for download on [Hugging Face 🤗](https://huggingface.com/fomo-mri/fomo60k).
 
 **All code necesarry to reproduce the dataset will be made available as soon as possible**.
 
